@@ -20,7 +20,8 @@
 - You can access allure report by executing the following command "allure serve" in terminal after running the code or you can check "Allure Report as Images" which contains screenshot of the reports
 
 ## Important Note
-Please note that if you run the code for the first time the application asks for many permissions so in order for the code to run smoothly firstly you need to install the application on virtual device then pass all permissions then open the main screen then start to run the script
+- Please note that if you run the code for the first time the application asks for many permissions so in order for the code to run smoothly firstly you need to install the application on virtual device then pass all permissions then open the main screen then start to run the script
+- For the validation of humidity and rain values, the code scrolls to the hour box, then scrolls back to the start of the screen before scrolling down to the next hour box. This approach ensures that no hours are missed, as scrolling in one motion can sometimes cause some hours to be skipped. By scrolling each time from the start of the screen, we ensure that all hour boxes are accounted for.
 
 ## Code Explanation
 - in the src/test/java/org you will find a package called "tests" this package contain two test classes "ChangeSettingTests.java" and "HumidityAndRainTests.java"

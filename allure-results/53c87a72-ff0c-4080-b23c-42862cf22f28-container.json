@@ -1,0 +1,1 @@
+{"uuid":"53c87a72-ff0c-4080-b23c-42862cf22f28","name":"org.tests.HumidityAndRainTests","children":["54bd3a73-ae3f-41ef-9c05-103a79c3084b"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1737069265218,"stop":1737069273471}],"afters":[],"start":1737069216564,"stop":1737069418178}
